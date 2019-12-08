@@ -6,20 +6,25 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+      <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
-    <body>
+    <body style="
+    background-image: url('/images/begin.png');
+    background-size: cover;
+    background-position:fixed;">
+        <div class="container">
         <div>
-                <nav>
-                        <div class="nav-wrapper blue-grey">
-                          <a href="#!" class="brand-logo">Logo</a>
+                <nav class="transparent">
+                        <div class="nav-wrapper transparent">
+                          <a href="#!" class="brand-logo"><img class="brand-logo" src="/images/logo.png" alt=""></a>
                           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                           <ul class="right hide-on-med-and-down">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
                             <li><a href="blog.html">Blog</a></li>
                             <li><a href="contact.html">Contact</a></li>
                           </ul>
@@ -29,14 +34,14 @@
                       <ul class="sidenav" id="mobile-demo">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
                             <li><a href="blog.html">Blog</a></li>
                             <li><a href="contact.html">Contact</a></li>
                       </ul>                    
         </div>
-        <div class="container">
             <div class="row">
-                <div class="col s12">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, nam tempore quaerat perspiciatis ullam, repellendus voluptas accusamus maxime deleniti eaque nostrum iusto beatae odio et quasi libero nulla cum facilis.
+                <div style="background-color: rgba(255, 123, 123, 0.4); color: black;" class="section col s12">
+                    <p style="font-size: 2em;">Pavel has not yet written any articles worthy of reading. Please come back later.</p>
                 </div>
             </div>
         </div>
