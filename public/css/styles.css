@@ -1,0 +1,112 @@
+
+.transparent {
+    background-color: rgba(2,2,2,0.3) !important;
+
+
+  }
+  .sidenav {
+    background-color: rgba(3,3,3,1) !important;
+  }
+  a {
+    color: white !important;
+    font-size: 1.2em !important;
+    margin-right: 20px;
+  }
+  a:hover {
+    color: rgb(123, 128, 255) !important;
+    font-size: 1.2em !important;
+  }
+  .section {
+      height: 100vh;
+      background-color: rgba(0,0,0,0.4);
+      color: white;
+  }
+  .portfolio {
+    height: 170vh;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+  }
+  .brand-logo {
+
+    width: 80px;
+  }
+  .index-text {
+      font-size: 5vh;
+      padding-top: 100px;
+      font-family: 'Amatic SC', cursive;
+  }
+  .input-text-field {
+      background-color: rgb(0, 0, 0, 0.7) !important;
+      color: rgb(95, 106, 255);
+      height: 2rem !important;
+      border: 1px solid rgb(123, 128, 255) !important;
+  }
+  textarea {
+    resize: none;
+    height: 200px !important;
+    background-color: rgb(0, 0, 0, 0.7) !important;
+    border: 1px solid rgb(123, 128, 255) !important;
+    outline: none;
+    color: rgb(95, 106, 255);
+  }
+  .btn {
+      background-color: rgb(0, 0, 0);
+      width: 100%;
+  }
+  .btn:hover{
+      background-color:rgb(123, 128, 255) !important;
+      color: black;
+  }
+  .card-content, .card-action {
+      background-color: black !important;
+  }
+
+  @media screen and (max-width: 750px) {
+    .section {
+
+        height: 100vh;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+    }
+    .portfolio {
+        height: 160vh;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+      }
+  }
+  @media screen and (max-width: 600px) {
+    .portfolio {
+        height: 295vh;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+      }
+  }
+  @media screen and (max-width: 440px) {
+    .section {
+
+        height: 120vh;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+    }
+    .portfolio {
+        height: 200vh;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+      }
+  }
+  @media screen and (max-width: 375px) {
+    .section {
+
+        height: 110vh;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .section {
+
+        height: 160vh;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+    }
+  }
