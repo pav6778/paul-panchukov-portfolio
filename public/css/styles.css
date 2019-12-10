@@ -4,6 +4,7 @@
 
 
   }
+
   .sidenav {
     background-color: rgba(3,3,3,1) !important;
   }
@@ -21,14 +22,9 @@
       background-color: rgba(0,0,0,0.4);
       color: white;
   }
-  .portfolio {
-    height: 110vh;
-    background-color: rgba(0,0,0,0.4);
-    color: white;
-  }
+ 
   .brand-logo {
-
-    width: 80px;
+    width: 70px;
   }
   .index-text {
       font-size: 5vh;
@@ -40,6 +36,12 @@
       color: rgb(95, 106, 255);
       height: 2rem !important;
       border: 1px solid rgb(123, 128, 255) !important;
+  }
+  input:focus {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  textarea:focus {
+    background-color: rgb(255, 255, 255) !important;
   }
   textarea {
     resize: none;
@@ -60,13 +62,7 @@
   .card-content, .card-action {
       background-color: black !important;
   }
-@media screen and (max-width: 992px) {
-  .portfolio {
-    height: 170vh;
-    background-color: rgba(0,0,0,0.4);
-    color: white;
-  }
-}
+
   @media screen and (max-width: 750px) {
     .section {
 
@@ -74,19 +70,9 @@
         background-color: rgba(0,0,0,0.4);
         color: white;
     }
-    .portfolio {
-        height: 160vh;
-        background-color: rgba(0,0,0,0.4);
-        color: white;
-      }
+   
   }
-  @media screen and (max-width: 600px) {
-    .portfolio {
-        height: 295vh;
-        background-color: rgba(0,0,0,0.4);
-        color: white;
-      }
-  }
+
   @media screen and (max-width: 440px) {
     .section {
 
@@ -94,11 +80,7 @@
         background-color: rgba(0,0,0,0.4);
         color: white;
     }
-    .portfolio {
-        height: 200vh;
-        background-color: rgba(0,0,0,0.4);
-        color: white;
-      }
+ 
   }
   @media screen and (max-width: 375px) {
     .section {
