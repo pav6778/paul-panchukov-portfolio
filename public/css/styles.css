@@ -74,7 +74,7 @@
   }
   @media screen and (max-width: 600px) {
     .section {
-      height: 180vh;
+      height: 150vh;
       background-color: rgba(0,0,0,0.4);
       color: white;
     }
@@ -83,7 +83,7 @@
   @media screen and (max-width: 440px) {
     .section {
 
-        height: 120vh;
+        height: 280vh;
         background-color: rgba(0,0,0,0.4);
         color: white;
     }
@@ -92,7 +92,7 @@
   @media screen and (max-width: 375px) {
     .section {
 
-        height: 110vh;
+        height: 180vh;
         background-color: rgba(0,0,0,0.4);
         color: white;
     }
@@ -100,7 +100,7 @@
   @media screen and (max-width: 360px) {
     .section {
 
-        height: 160vh;
+        height: 290vh;
         background-color: rgba(0,0,0,0.4);
         color: white;
     }
