@@ -82,7 +82,7 @@ border-top: rgb(74, 56, 0) 1px solid;
 .index-text {
     font-size: 5vh;
     padding-top: 20%;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC';
     height: 89.3vh;
 }
 .section {
@@ -94,17 +94,17 @@ border-top: rgb(74, 56, 0) 1px solid;
     padding: 0 !important;
 }
 #about-section {    
-padding: 5% 10% 10%;
+padding: 6% 10% 10%;
 font-size: 1.5em; 
 background-color: rgba(255,255,255, 0.6);
 color: black;
 height: 100vh;
 }
 #portfolio-section {
-    padding: 5% 0 0 0;
+    padding: 6% 0 0 0;
 }
 #contactMe {
-    padding: 5% 0 0 0;
+    padding: 6% 0 0 0;
 }
 .card-content, .card-action {
     background-color: black !important;
@@ -127,4 +127,13 @@ height: 100vh;
         margin: 50% 0 0 0;
         width: 100%;
     }
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+}
+#mobile-demo > li > a:hover {
+    font-size: 26px;
+    background-color: black;
+    color: white;
 }

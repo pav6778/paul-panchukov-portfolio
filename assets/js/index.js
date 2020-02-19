@@ -21,7 +21,7 @@ $(".sidenav").click( ()=>{
   $('.sidenav').sidenav();
 })
 $(window).resize(()=>{
-  if($('body').width() > 600){
+  if($('body').width() < 600){
     $(".toggleContSize").toggleClass("container", "container-full")
   } 
 })
