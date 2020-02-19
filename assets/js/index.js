@@ -13,11 +13,15 @@ $(document).ready(function(){
 
 
 $(".material-icons").click(()=>{
-
   $('.navcolor').css({"position": "static"});
   $('#mobile-demo').css({"background-color": randomColorGen()});
 });
 $(".sidenav").click( ()=>{
   $('.navcolor').css({"position": "sticky"});
   $('.sidenav').sidenav();
+})
+$(window).resize(()=>{
+  if($('body').width() > 600){
+    $(".toggleContSize").toggleClass("container", "container-full")
+  } 
 })
