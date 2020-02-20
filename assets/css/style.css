@@ -1,4 +1,7 @@
-
+body {
+    background-image: url("../images/chevron.png");
+    background-repeat: repeat;
+}
 .home-page {
     background-image: url('../images/logobackground.jpeg');
     background-repeat: no-repeat;
@@ -53,8 +56,11 @@ div > li > a:hover {
     text-decoration: none;
     color: rgb(153, 209, 255);
 }
+div > li > a > img {
+    width: 40px;
+}
 div > li > a > img:hover {
-    width: 25px;
+    width: 38px;
 }
 div > ul > li > a {
     padding: 0 40px 0 40px;
@@ -63,21 +69,12 @@ div > ul > li > a:hover {
     color: rgb(0, 132, 255);
     text-decoration: none;
 }
-.nav {
-border-bottom-right-radius: 4px;
-border-bottom-left-radius: 4px;
-border-left: rgba(255, 213, 0, 0.596) 2px solid;
-border-right: rgba(255, 213, 0, 0.596) 2px solid;
-border-bottom: rgba(255, 213, 0, 0.596) 2px solid;
-border-top: rgb(74, 56, 0) 1px solid;
-}
 .text {
     color: rgb(255, 179, 0);
 }
 .navcolor {
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 1) !important;
     position: sticky;
-    padding-left: 10px;
 }
 .index-text {
     font-size: 5vh;
@@ -87,7 +84,7 @@ border-top: rgb(74, 56, 0) 1px solid;
 }
 .section {
     height: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     color: white;
 }
 .container {
@@ -116,6 +113,15 @@ height: 100vh;
     background-color: rgba(0,0,0,0.3);
 }
 @media screen and (max-width: 600px) {
+    #about-section {
+        padding-top: 8%;
+    }
+    #portfolio-section {
+        padding-top: 8%;
+    }
+    #contactMe {
+        padding-top: 8%;
+    }
     .container {
         width: 100% !important;
     }
