@@ -117,7 +117,7 @@ height: 100vh;
 }
 @media screen and (max-width: 500px) {
     .container {
-        padding: 0px !important;
+        width: 100% !important;
     }
     #about-section {
         height: 100%
@@ -137,3 +137,4 @@ height: 100vh;
     background-color: black;
     color: white;
 }
+

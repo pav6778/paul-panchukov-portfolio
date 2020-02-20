@@ -1,6 +1,8 @@
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
+$(document).ready(function () {
+
+
+  $('.sidenav').sidenav();
+
 
   const randomColorGen = () => {
     var letters = '0123456789ABCDEF';
@@ -11,17 +13,15 @@ $(document).ready(function(){
     return color;
   }
 
-
-$(".material-icons").click(()=>{
-  $('.navcolor').css({"position": "static"});
-  $('#mobile-demo').css({"background-color": randomColorGen()});
+  $(".material-icons").click(() => {
+    $('.navcolor').css({ "position": "static" });
+    $('#mobile-demo').css({ "background-color": randomColorGen() });
+  });
+  $(".sidenav").click(() => {
+    $('.navcolor').css({ "position": "sticky" });
+    $('.sidenav').sidenav();
+  })
 });
-$(".sidenav").click( ()=>{
-  $('.navcolor').css({"position": "sticky"});
-  $('.sidenav').sidenav();
-})
-$(window).resize(()=>{
-  if($('body').width() < 600){
-    $(".toggleContSize").toggleClass("container", "container-full")
-  } 
-})
+
+
+
