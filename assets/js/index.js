@@ -33,9 +33,9 @@ $(document).ready(function () {
     }
 
     
-window.scrollY > 900 ? $(".about-page").css("overflow", "auto") : $(".about-page").css("overflow", "hidden");
+window.scrollY > 700 ? $(".about-page").css("overflow", "auto") : $(".about-page").css("overflow", "hidden");
 
-window.scrollY > 1750 ? $(".portfolio-page").css("overflow", "auto") : $(".portfolio-page").css("overflow", "hidden");
+window.scrollY > 1300 ? $(".portfolio-page").css("overflow", "auto") : $(".portfolio-page").css("overflow", "hidden");
 
   })
 });
