@@ -21,6 +21,23 @@ $(document).ready(function () {
     $('.navcolor').css({ "position": "sticky" });
     $('.sidenav').sidenav();
   })
+
+
+  $(window).on("scroll", ()=> {
+    if(window.scrollY > 29 && window.scrollY < 111) {
+      $(".links").css("color", "black");
+      $(".material-icons").css("color", "black")
+    } else {
+      $(".links").css("color", "white")
+      $(".material-icons").css("color", "white")
+    }
+
+    
+window.scrollY > 1312 ? $(".about-page").css("overflow", "auto") : $(".about-page").css("overflow", "hidden");
+
+window.scrollY > 2591 ? $(".portfolio-page").css("overflow", "auto") : $(".portfolio-page").css("overflow", "hidden");
+
+  })
 });
 
 

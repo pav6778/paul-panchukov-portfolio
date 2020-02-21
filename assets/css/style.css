@@ -19,7 +19,6 @@ body {
     background-size: cover;
     height: 100vh;
     border: rgb(255, 251, 212) 2px solid;
-    overflow: scroll;
 }
 
 .portfolio-page {
@@ -28,7 +27,6 @@ body {
     background-size: cover;
     height: 100vh;
     border: rgb(255, 251, 212) 2px solid;
-    overflow: scroll;
 }
 .contact-page {
     background-image: url('../images/connect.png');
@@ -36,6 +34,9 @@ body {
     background-size: cover;
     height: 100vh;
     border: rgb(255, 251, 212) 2px solid;
+}
+.icons {
+background-image: url('../images/chevron.png');
 }
 .icon {
 display: inline-block;
@@ -63,7 +64,8 @@ div > li > a > img:hover {
     width: 38px;
 }
 div > ul > li > a {
-    padding: 0 40px 0 40px;
+    margin-right: 10px;
+    padding: auto;
 }
 div > ul > li > a:hover {
     color: rgb(0, 132, 255);
@@ -73,7 +75,7 @@ div > ul > li > a:hover {
     color: rgb(255, 179, 0);
 }
 .navcolor {
-    background-color: rgba(0, 0, 0, 1) !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
     position: sticky;
 }
 .index-text {
@@ -93,8 +95,6 @@ div > ul > li > a:hover {
 #about-section {    
 padding: 6% 10% 10%;
 font-size: 1.5em; 
-background-color: rgba(255,255,255, 0.6);
-color: black;
 height: 100vh;
 }
 #portfolio-section {
@@ -130,17 +130,27 @@ height: 100vh;
     } 
     .gform {
         padding: 2%;
-        margin: 50% 0 0 0;
+        margin: 30% 0 0 0;
         width: 100%;
     }
     .icons {
         display: flex;
         justify-content: center;
     }
+    .index-text {
+        padding-top: 50%;
+    }
 }
 #mobile-demo > li > a:hover {
     font-size: 26px;
     background-color: black;
     color: white;
+}
+#mobile-demo > li > a {
+    font-size: 25px;
+
+    color: black;
+    width: 100%;
+
 }
 
