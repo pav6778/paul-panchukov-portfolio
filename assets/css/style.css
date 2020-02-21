@@ -113,6 +113,15 @@ height: 100vh;
     background-color: rgba(0,0,0,0.3);
 }
 @media screen and (max-width: 600px) {
+    .about-page {
+        border: none;
+    }
+    .portfolio-page{
+        border: none;
+    }
+    .contact-page {
+        border: none;
+    }
     #about-section {
         padding-top: 8%;
     }
