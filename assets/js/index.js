@@ -22,6 +22,8 @@ $(document).ready(function () {
     $('.sidenav').sidenav();
   })
 
+  let absect = document.getElementById("about-section"),
+  prfsect = document.getElementById("portfolio-section");
 
   $(window).on("scroll", ()=> {
     if(window.scrollY > 29 && window.scrollY < 111) {
@@ -31,14 +33,8 @@ $(document).ready(function () {
       $(".links").css("color", "white")
       $(".material-icons").css("color", "white")
     }
+    if(window.scrollY > absect.clientHeight || window.scrollY < prfsect.clientHeight) {
 
-    
-window.scrollY > 700 ? $(".about-page").css("overflow", "auto") : $(".about-page").css("overflow", "hidden");
-
-window.scrollY > 1300 ? $(".portfolio-page").css("overflow", "auto") : $(".portfolio-page").css("overflow", "hidden");
-
+    }
   })
 });
-
-
-

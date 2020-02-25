@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
 }
 .home-page {
-    background-image: url('../images/logobackground.jpeg');
+    /* background-image: url('../images/logobackground.jpeg'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 91vh;
@@ -14,22 +14,24 @@ body {
     border-top-right-radius: 3px;
 }
 .about-page {
-    background-image: url('../images/circuitboard.jpeg');
+    /* background-image: url('../images/circuitboard.jpeg'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     border: rgb(255, 251, 212) 2px solid;
+    overflow: auto;
 }
 
 .portfolio-page {
-    background-image: url('../images/portfolio.jpeg');
+    /* background-image: url('../images/portfolio.jpeg'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     border: rgb(255, 251, 212) 2px solid;
+    overflow: auto;
 }
 .contact-page {
-    background-image: url('../images/connect.png');
+    /* background-image: url('../images/connect.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
