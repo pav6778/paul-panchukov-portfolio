@@ -1,0 +1,83 @@
+.nav-wrapper {
+  padding-right: 2%;
+}
+.nav-wrapper > ul > li > a:hover {
+  background-color: #eee;
+  color: black;
+}
+#contact-form  {
+  padding-top: 20%;
+  height: 93vh;
+}
+.intro {
+  background-color: blue;
+}
+.icons {
+  padding: 10px 40px!important;
+  display: inline-block;
+}
+.icons:hover {
+  opacity: 0.6;
+}
+#about-page, .skills {
+  height: 100%;
+  padding: 10px;
+  border: 1px lightgray solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px #757575;
+  overflow: scroll;
+}
+.info-text {
+color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 20% 0;
+text-shadow: 2px 1px 1px #474747;
+}
+.responsive-img {
+  margin-top: 13px;
+}
+.card-content {
+  border: 1px rgb(176, 176, 176) solid;
+}
+.tooltip {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 4px;
+  left: -10px;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+color: black !important;
+}
+input:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+.material-icons {
+  color: rgb(107, 107, 107) !important;
+}
+.material-icons.active {
+  color: #000 !important;
+}
+.fixed-action-btn {
+  transition: ease-in-out 1s !important;
+}
+@media screen and (max-width: 500px) {
+  #contact-form {
+    padding-top: 50%;
+  }
+}
