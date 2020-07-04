@@ -13,19 +13,20 @@
   background-color: blue;
 }
 .icons {
-  padding: 10px 40px!important;
+  padding: 10px 80px!important;
   display: inline-block;
+  opacity: 0.6
 }
 .icons:hover {
-  opacity: 0.6;
+  opacity: 1;
 }
 #about-page, .skills {
   height: 100%;
   padding: 10px;
   border: 1px lightgray solid;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.3em;
-  text-shadow: 1px 1px 1px #757575;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  text-shadow: 0.5px 0px 1px #a8a8a8;
   overflow: scroll;
 }
 .info-text {
@@ -42,13 +43,13 @@ text-shadow: 2px 1px 1px #474747;
 }
 .tooltip {
   position: relative;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted white;
 }
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -61,7 +62,7 @@ text-shadow: 2px 1px 1px #474747;
   visibility: visible;
 }
 input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
-color: black !important;
+color: white !important;
 }
 input:focus, .materialize-textarea:focus:not([readonly]) {
   border-bottom: 1px solid #000 !important;
@@ -71,13 +72,26 @@ input:focus, .materialize-textarea:focus:not([readonly]) {
   color: rgb(107, 107, 107) !important;
 }
 .material-icons.active {
-  color: #000 !important;
+  color: white !important;
 }
 .fixed-action-btn {
   transition: ease-in-out 1s !important;
 }
+@media screen and (max-width: 800px) {
+  .icons {
+    padding: 10px 40px!important;
+  }
+}
 @media screen and (max-width: 500px) {
   #contact-form {
     padding-top: 50%;
+  }
+  .icons {
+    padding: 10px 20px!important;
+  }
+}
+@media screen and (max-height: 400px) {
+  .page-footer {
+    display: none;
   }
 }

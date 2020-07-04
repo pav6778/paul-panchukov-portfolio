@@ -15,12 +15,8 @@ class App extends Component {
   }
 
   mouseWheelScroll = () => {
-    this.setState({pos_Y: window.scrollY})
-    if(this.state.pos_Y > 80){
-      this.setState({arrow_up: 1})
-    }else{
-      this.setState({arrow_up: 0})
-    }
+    this.setState({pos_Y: window.pageYOffset})
+    this.state.pos_Y > 2 ? this.setState({arrow_up: 1}) : this.setState({arrow_up: 0})
   }
   arrowPress = () => {
     this.setState({arrow_up: 0})
@@ -61,11 +57,11 @@ class App extends Component {
             <About />
             <Portfolio />
             <Contact />
-            <footer className="page-footer white">
+            <footer className="page-footer white z-depth-3">
             <div className="icons center-align"><a href="./PavelPanchukov_resume.pdf"><img width="35" alt="" src="./images/resume.png"/><div className="tooltip">RESUME<span className="tooltiptext">Click to download resume in PDF format</span></div></a></div>
           <div className="footer-copyright">
             <div className="container black-text">
-            © 2019-2020 paul-panchukov.com All Rights Reserved 
+            Made by Paul Panchukov © 2019-2020 
             
                             
             </div>

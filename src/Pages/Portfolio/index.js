@@ -34,7 +34,7 @@ class Portfolio extends Component {
                                     <div className="card-content">
                                         <img className="responsive-img" alt="" src="./images/songsparrow.png" />
                                         <span className="card-title">Song-Sparrow</span>
-                                        <p className="left-align">A web app which allows you to search for bands and upcoming concerts.</p><div className="divider"></div>
+                                        <p className="left-align">A web app which allows you to search for bands and upcoming concerts with built-in chat functionality between users viewing the page.  </p><div className="divider"></div>
                                         <a href="https://gainstrive.github.io/song-sparrow">View in Github Pages</a>
                                         
                                     </div>
@@ -56,7 +56,7 @@ class Portfolio extends Component {
                                     <div className="card-content">
                                         <img className="responsive-img" alt="" src="./images/hangman.png" />
                                         <span className="card-title">Hangman</span>
-                                        <p className="left-align"> A word guess game. Keypress event listener is waiting for user input to match it with the guessed word and displays used letters. Plays a sound for wins and loses.</p><div className="divider"></div>
+                                        <p className="left-align"> HTML/CSS and JavaScript word guess game. Keypress event listener is waiting for user input to match it with the guessed word and displays used letters. Plays a sound for wins and loses. </p><div className="divider"></div>
                                         <a href="https://pav6778.github.io/Word-Guess-Game/">View in Github Pages</a>
                                     </div>
                                 </div>
